@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.examle.task1.MainController">
+   <children>
+      <Canvas fx:id="canvas" height="356.0" width="600.0" />
+      <ColorPicker fx:id="colorpicker">
+         <FlowPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </FlowPane.margin>
+      </ColorPicker>
+      <Button mnemonicParsing="false" onAction="#onRectangleClick" text="Прямоугольник">
+         <FlowPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </FlowPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#onTriangleClick" text="Треугольник">
+         <FlowPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </FlowPane.margin>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#onCircleClick" text="Круг">
+         <FlowPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </FlowPane.margin>
+      </Button>
+   </children>
+</FlowPane>
